@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamenUD1PMDM</string>
+    <string name="testoBoton">Calcular Factorial</string>
+    <string name="resultado">RESULTADO</string>
+</resources>
