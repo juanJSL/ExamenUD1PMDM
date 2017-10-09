@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">ExamenUD1PMDM</string>
-    <string name="testoBoton">Calcular Factorial</string>
-    <string name="resultado">RESULTADO</string>
+
+    <string name="app_name">ExamenUD1PMDM</string> <!--Nombre de la aplicacion-->
+    <string name="textoBoton">Calcular Factorial</string> <!--Texto que aparece en el boton-->
+    <string name="resultado">0</string> <!--Texto que aparace en el TextView de resultado-->
+    <string name="cuadroNumero">Numero?</string> <!--Texto que aparece en el EditText-->
+
 </resources>

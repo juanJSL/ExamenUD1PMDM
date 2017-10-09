@@ -4,23 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-
+<!--Aqui creamos el view donde se mostrara el resultado-->
     <TextView
         android:id="@+id/resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/resultado"
-        android:textSize="50sp"
+        android:textSize="40sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="188dp" />
 
-
+<!--Aqui creamos el boton que llamara al metodo factorial que calcula el factorial de un numero-->
     <Button
         android:id="@+id/boton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/testoBoton"
+        android:text="@string/textoBoton"
         android:textSize="50sp"
         android:onClick="factorial"
         android:layout_alignParentBottom="true"
@@ -29,6 +29,7 @@
         android:layout_marginLeft="14dp"
         android:layout_marginStart="14dp" />
 
+    <!--El EditText sera la parte en la que el usuario teclee el numero del que quiere calcular el factorial-->
     <EditText
         android:id="@+id/numero"
         android:layout_width="wrap_content"
@@ -39,6 +40,9 @@
         android:ems="10"
         android:textSize="50sp"
         android:inputType="number"
-        android:text="Numero?" />
+        android:text="@string/cuadroNumero"
+        android:clickable="true"
+        android:onClick="vaciarEditText"/>
+
 
 </RelativeLayout>
